@@ -14,12 +14,17 @@ let sum = addTwoNumbers(3, 5);
 console.log(sum);
 
 // Arrow Function With Parameters
-const addTwoNumbers2 = (a, b) => a + b;
-
-let sum2 = addTwoNumbers2(6, 5);
+const addTwoNumbers2 = (a, b) => {
+    return a + b;
+}
+let sum2 = addTwoNumbers2(6, 2);
 console.log(sum2);
 
 // Single Line Arrow Function With Parameters
+const addTwoNumbers3 = (a, b) => a + b;
+
+let sum3 = addTwoNumbers3(6, 5);
+console.log(sum3);
 
 // Implicit Returns
 const saySomething = message => console.log(message);
